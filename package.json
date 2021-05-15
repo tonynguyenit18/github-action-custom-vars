@@ -1,16 +1,17 @@
 {
-  "name": "github-action-branch-name",
+  "name": "github-action-custom-vars",
   "version": "1.0.0",
-  "description": "Inject branch name in some special case in github action",
+  "description": "Inject custom vars, e.g branch name, in some special case in github action",
   "main": "lib/index.js",
   "keywords": [
     "actions",
     "github-action",
     "branch name",
+    "custom-vars",
     "branch",
     "recent merged branch name"
   ],
-  "repository": "https://github.com/tonynguyenit18/github-action-branch-name.git",
+  "repository": "https://github.com/tonynguyenit18/github-action-custom-vars/issues/new",
   "author": "Tony Nguyen <tonynguyenit18@gmail.com>",
   "license": "MIT",
   "scripts": {
