@@ -1,4 +1,4 @@
-name: "Log RECENT_MERGED_BRANCH_NAME"
+name: "Log RECENT_MERGED_BRANCH_NAME using direct action"
 on: push
 
 jobs:

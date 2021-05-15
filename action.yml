@@ -1,8 +1,8 @@
-name: 'Github action branch name'
-description: 'Export branch name in some special case as environment variables'
+name: "Github action custom vars"
+description: "Export git information via custom vars in some special case where github action workflow does not proved"
 branding:
-  icon: 'git-branch'
-  color: 'orange'
+  icon: "git-branch"
+  color: "orange"
 runs:
-  using: 'node12'
-  main: 'dist/index.js'
+  using: "node12"
+  main: "dist/index.js"

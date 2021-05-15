@@ -1,0 +1,10 @@
+name: "Log RECENT_MERGED_BRANCH_NAME using tonynguyenit18/github-action-custom-vars@v1"
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: tonynguyenit18/github-action-custom-vars@v1
+      - run: echo $RECENT_MERGED_BRANCH_NAME
