@@ -31,5 +31,6 @@ jobs:
       - run: echo $RECENT_MERGED_BRANCH_NAME
 ```
 **Result**
-<img width="200" src="https://raw.githubusercontent.com/tonynguyenit18/github-action-custom-vars/main/docs/images/most-recent-merged-branch-name-result.png">
+
+<img src="https://raw.githubusercontent.com/tonynguyenit18/github-action-custom-vars/main/docs/images/most-recent-merged-branch-name-result.png">
 
