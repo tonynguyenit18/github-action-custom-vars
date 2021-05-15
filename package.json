@@ -1,0 +1,34 @@
+{
+  "name": "github-action-branch-name",
+  "version": "1.0.0",
+  "description": "Inject branch name in some special case in github action",
+  "main": "lib/index.js",
+  "keywords": [
+    "actions",
+    "github-action",
+    "branch name",
+    "branch",
+    "recent merged branch name"
+  ],
+  "repository": "https://github.com/tonynguyenit18/github-action-branch-name.git",
+  "author": "Tony Nguyen <tonynguyenit18@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc && ncc build",
+    "format": "prettier --write **/*.ts",
+    "format-check": "prettier --check **/*.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@actions/core": "^1.2.7"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.0.3",
+    "@vercel/ncc": "^0.28.5",
+    "jest": "^26.6.3",
+    "prettier": "^2.3.0",
+    "ts-jest": "^26.5.6",
+    "typescript": "^4.2.4"
+  }
+}

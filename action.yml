@@ -1,0 +1,8 @@
+name: 'Github action branch name'
+description: 'Export branch name in some special case as environment variables'
+branding:
+  icon: 'git-branch'
+  color: 'orange'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
